@@ -1,0 +1,149 @@
+@charset 'UTF-8';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body{
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+
+header{
+    background-color: black;
+    width: 100vp;
+    max-height: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+
+
+}
+header h1{
+    color: white;
+    font-family: 'Passion One', cursive;
+    font-size: 10vw;
+    margin: 0px;
+    padding-top: 30px;
+    
+
+ 
+}
+header h2 {
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-bottom: 10px;
+    font-size: 1em;
+    font-weight: lighter;
+    
+    
+}
+
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+h2 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+section{
+    height: 100vp
+
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#normal > p{
+    color: black;
+    text-align: justify;
+    width: 100%;
+    font-family: 'Sriracha', cursive;
+    font-size: 3em;
+    line-height: 2em;
+}
+#normal{
+    background-color: white;
+    padding-left: 30px;
+    
+}
+
+
+#imagem1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 30px;
+
+}
+
+#imagem1 > p{
+    color: white;
+    text-align: justify;
+    width: 100%;
+    font-family: 'Sriracha', cursive;
+    font-size: 3em;
+    line-height: 2em;
+
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 600px;
+    padding: 10px 10px 10px 5px;
+
+}
+
+
+
+#imagem2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 30px;
+
+}
+
+#imagem2 > p{
+    color: white;
+    text-align: justify;
+    width: 100%;
+    font-family: 'Sriracha', cursive;
+    font-size: 3em;
+    line-height: 2em;
+
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 600px;
+    padding: 10px 10px 10px 5px;
+    text-shadow: 1px 1px 1px black;
+}
+footer{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
